@@ -3,6 +3,7 @@
   justify-content: space-around;
   align-items: center;
   height: 85px;
+  padding: 10px;
 }
 
 .nav-btn-cnt {
@@ -22,4 +23,61 @@
 
 .nav-btn:hover {
   border-bottom: 4px solid green;
+}
+
+.mobile-view {
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+  .nav-cnt {
+    position: relative;
+    justify-content: space-between;
+  }
+
+  .mobile-view-allBtn {
+    position: absolute;
+    background-color: aliceblue;
+    width: 300px;
+    height: 310px;
+    border-radius: 9px;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-mobile-btn-cnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .mobile-view {
+    display: block;
+  }
+
+  .ham-bur-btn-cnt {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+
+  .nav-mobile-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 19px;
+    font-weight: 700;
+  }
+
+  .ham-bur-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 29px;
+    cursor: pointer;
+  }
+
+  .nav-btn-cnt,
+  .nav-req-btn-cnt {
+    display: none;
+  }
 }
