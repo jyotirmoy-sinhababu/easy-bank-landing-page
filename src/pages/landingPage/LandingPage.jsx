@@ -5,6 +5,7 @@ import Nav from '../../components/nav/Nav';
 import './landingPageStyle.css';
 import Intro from '../../components/intro/Intro';
 import Feature from '../../container/feature/Feature';
+import CardCnt from '../../container/cardCnt/CardCnt';
 
 const LandingPage = () => {
   return (
@@ -12,6 +13,7 @@ const LandingPage = () => {
       <Nav />
       <Intro />
       <Feature />
+      <CardCnt />
     </div>
   );
 };

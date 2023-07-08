@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Be+Vietnam+Pro&family=Bruno+Ace+SC&family=Caprasimo&family=Epilogue&family=Inter&family=Montserrat+Alternates:wght@200&family=Oooh+Baby&family=Playfair+Display&family=Public+Sans&family=Roboto&family=Rubik&display=swap');
+
+.card-cnt {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cardSub-cnt {
+  width: 250px;
+  border: 1px solid red;
+}
+
+.card-img {
+  width: 250px;
+}
+
+.card-header {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 20px;
+}
