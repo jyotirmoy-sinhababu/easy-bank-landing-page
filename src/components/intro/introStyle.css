@@ -1,0 +1,12 @@
+.intro-cnt {
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro-img {
+  width: 500px;
+}
+
+.intro-txt-cnt {
+  width: 500px;
+}

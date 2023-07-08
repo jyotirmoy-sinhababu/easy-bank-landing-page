@@ -1,9 +1,11 @@
 import React from 'react';
 
+import './btnStyle.css';
+
 const Btn = () => {
   return (
     <div>
-      <button>Request Invite</button>
+      <button className='req-btn'>Request Invite</button>
     </div>
   );
 };

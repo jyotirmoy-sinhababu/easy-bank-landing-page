@@ -1,0 +1,11 @@
+.req-btn {
+  width: 145px;
+  height: 55px;
+  color: aliceblue;
+  border: none;
+  background-color: hsl(147, 70%, 51%);
+  border-radius: 70px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
