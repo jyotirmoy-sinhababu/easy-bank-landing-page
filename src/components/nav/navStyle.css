@@ -1,0 +1,25 @@
+.nav-cnt {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 85px;
+}
+
+.nav-btn-cnt {
+  display: flex;
+  justify-content: space-around;
+  width: 450px;
+}
+
+.nav-btn {
+  background-color: transparent;
+  font-size: 19px;
+  font-weight: 600;
+  height: 85px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  border-bottom: 2px solid green;
+}
