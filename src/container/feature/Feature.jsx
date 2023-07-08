@@ -1,26 +1,21 @@
 import React from 'react';
 
-import { feature } from '../../utils/feature';
 import FeatureCard from '../../components/featureCard/FeatureCard';
+
+import './featureStyle.css';
 
 const Feature = () => {
   return (
-    <div>
-      <div>
-        <p>Why choose Easybank?</p>
-        <p>
+    <div className='feature-cnt'>
+      <div className='feature-txt-cnt'>
+        <p className='feature-header'>Why choose Easybank?</p>
+        <p className='feature-para'>
           We leverage Open Banking to turn your bank account into your financial
           hub. Control your finances like never before.
         </p>
       </div>
-      <div>
-        {feature.map((item) => {
-          return (
-            <div key={item.id}>
-              <FeatureCard item={item} />
-            </div>
-          );
-        })}
+      <div className='feature-featureCard-cnt'>
+        <FeatureCard />
       </div>
     </div>
   );

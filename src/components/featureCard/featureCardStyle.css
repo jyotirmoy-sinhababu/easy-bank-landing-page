@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Be+Vietnam+Pro&family=Bruno+Ace+SC&family=Caprasimo&family=Epilogue&family=Inter&family=Montserrat+Alternates:wght@200&family=Oooh+Baby&family=Playfair+Display&family=Public+Sans&family=Roboto&family=Rubik&display=swap');
+
+.featureCard-cnt {
+  display: flex;
+  justify-content: space-around;
+}
+
+.featureCard-sub-cnt {
+  width: 250px;
+}
+
+.featureCard-header {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.featureCard-para {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 19px;
+}

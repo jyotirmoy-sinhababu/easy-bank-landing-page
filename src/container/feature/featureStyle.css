@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Be+Vietnam+Pro&family=Bruno+Ace+SC&family=Caprasimo&family=Epilogue&family=Inter&family=Montserrat+Alternates:wght@200&family=Oooh+Baby&family=Playfair+Display&family=Public+Sans&family=Roboto&family=Rubik&display=swap');
+
+.feature-cnt {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 50px;
+}
+
+.feature-txt-cnt {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 129px;
+}
+
+.feature-header {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.feature-para {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 19px;
+}
