@@ -1,41 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Be+Vietnam+Pro&family=Bruno+Ace+SC&family=Caprasimo&family=Epilogue&family=Inter&family=Montserrat+Alternates:wght@200&family=Oooh+Baby&family=Playfair+Display&family=Public+Sans&family=Roboto&family=Rubik&display=swap');
 
-.card-cnt {
-  display: flex;
-  justify-content: space-around;
+.cardComp-para-cnt {
+  padding-left: 129px;
 }
 
-.cardSub-cnt {
+.cardComp-cnt {
+  padding-top: 90px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 35px;
 }
 
-.cardSub-cnt {
-  width: 250px;
-}
-
-.card-img {
-  width: 250px;
-}
-
-.card-header {
+.cardComp-para {
   font-family: 'Public Sans', sans-serif;
   font-size: 20px;
-}
-
-.card-para-one,
-.card-para-two {
-  font-family: 'Public Sans', sans-serif;
-  font-size: 16px;
   font-weight: 700;
-}
-
-@media screen and (max-width: 940px) {
-  .card-cnt {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 15px;
-  }
 }
