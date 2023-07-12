@@ -20,6 +20,13 @@
   gap: 21px;
 }
 
+.footer-btn-cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
 @media screen and (max-width: 850px) {
   .footer-cnt {
     display: flex;

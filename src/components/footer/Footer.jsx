@@ -4,6 +4,7 @@ import Logo from '../logo/Logo';
 
 import './footerStyle.css';
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
+import Btn from '../button/Btn';
 
 const Footer = () => {
   return (
@@ -42,6 +43,9 @@ const Footer = () => {
             </a>
           </p>
         </div>
+      </div>
+      <div className='footer-btn-cnt'>
+        <Btn />
       </div>
     </div>
   );
