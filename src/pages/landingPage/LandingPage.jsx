@@ -6,6 +6,7 @@ import './landingPageStyle.css';
 import Intro from '../../components/intro/Intro';
 import Feature from '../../container/feature/Feature';
 import CardCnt from '../../container/cardCnt/CardCnt';
+import Footer from '../../components/footer/Footer';
 
 const LandingPage = () => {
   return (
@@ -14,6 +15,7 @@ const LandingPage = () => {
       <Intro />
       <Feature />
       <CardCnt />
+      <Footer />
     </div>
   );
 };
